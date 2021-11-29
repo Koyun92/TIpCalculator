@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="/dist/css/style.min.css">
+
+    <title>Frontend Mentor | Tip calculator app</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
+    </style>
+</head>
+
+<body>
+
+    <main>
+        <img class="logo" src="/src/img/logo.svg" alt="">
+        <div class="wrapper">
+            <div class="select">
+
+                <div class="bill">
+                    <p>Bill</p>
+                    <input type="number" value="0">
+
+                </div>
+                <div class="tipSelect">
+                    <p> Select Tip %</p>
+                    <input type="button" class="selectBtn" value="5%" tabindex=0;>
+                    <input type="button" class="selectBtn" value="10%" tabindex=0;>
+                    <input type="button" class="selectBtn" value="15%" tabindex=0;>
+                    <input type="button" class="selectBtn" value="25%" tabindex=0;>
+                    <input type="button" class="selectBtn" value="50%" tabindex=0;>
+                    <input type="number" placeholder="CUSTOM">
+                </div>
+                <div class="peopleNumber">
+                    <p> Number of People <span>Can't be zero </span></p>
+
+                    <input type="number" value="0">
+                </div>
+            </div>
+            <div class="result">
+                <div>
+                    <p>Tip Amount <span class="zero"> / person</span> </p>
+
+
+                    <p class="tipAmount"> $0</p>
+                </div>
+                <div>
+                    <p>
+                        Total <span> / person</span> </p>
+
+
+                    <p class="total">$0</p>
+                </div>
+                <button>
+                    Reset
+                </button>
+                <!-- połączyć githuba z repo i dodać pusha -->
+            </div>
+        </div>
+    </main>
+    <script src="/src/js/script.js"></script>
+</body>
+
+</html>
